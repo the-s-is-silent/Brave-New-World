@@ -19,9 +19,16 @@
 		"outerColor": [241,3,0],
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
-		"uniques": ["[-10]% Culture cost of adopting new Policies"],
-		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan„","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
-			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun„","Kielce","Gliwice","Lowicz",
+		"uniqueText": "Receive a free Social Policy each time you advance to the next era.",
+		"uniques": ["Free Social Policy <upon entering the [Classical era]>",
+			    "Free Social Policy <upon entering the [Medieval era]>",
+			    "Free Social Policy <upon entering the [Renaissance era]>",
+			    "Free Social Policy <upon entering the [Industrial era]>",
+			    "Free Social Policy <upon entering the [Modern era]>",
+			    "Free Social Policy <upon entering the [Atomic era]>",
+			    "Free Social Policy <upon entering the [Information era]>"],
+		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
+			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun","Kielce","Gliwice","Lowicz",
 			"Bytom","Olsztyn","Rzeszow","Ruda Slaska","Bielsko-Biala","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
 			"Leczyca","Walbrzych","Zielona Gora","Wloclawek"]
 	},
@@ -44,7 +51,7 @@
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
 		"uniqueName": "Treasures of Nineveh",
-		"uniques": ["[+25]% [Science] [in annexed cities]"]
+		"uniques": ["[+25]% [Science] [in annexed cities]"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -69,11 +76,11 @@
 		"innerColor": [63,106,64],
 		"uniqueName": "Carnival",
 		"uniques": ["[+50]% [Culture] [in all cities] <during a Golden Age>","[Great Artist] is earned [50]% faster <during a Golden Age>"],
-		"cities": ["Rio de Janeiro","SÃ£o Paulo","Salvador","BrasÃ­lia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
-			"BelÃ©m","GoiÃ¢nia","Guarulhos","Campinas","SÃ£o Luis","MaceiÃ³","Duque de Caxias","Natal","Campo Grande","Teresina",
-			"FlorianÃ³polis","Nova IguaÃ§u","Sao Bernardo do Campo","JoÃ£o Pessoa","Osasco","JaboatÃ£o dos Guararapes","SÃ£o JosÃ© dos Campos","Contagem","UberlÃ¢ndia","Aracaju","CuiabÃ¡", 
-			"Feira de Santana","Juiz de Fora","Joinville","MacapÃ¡","JundiaÃ­"]			
-	},	
+		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
+			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
+			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","CuiabÃ¡",
+			"Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
+	},
 	{
 		"name": "Zulu",
 		"leaderName": "Shaka",
@@ -121,8 +128,8 @@
 		"uniques": ["[+3 Gold] from every [Luxury resource]"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
 			"Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
-			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","SÃ£o TomÃ© and PrÃ­ncipe","Silves","Sintra","Dili","Lamego",
-			"Ponta Delgada"]			
+			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego",
+			"Ponta Delgada"]
 	},
 	{
 		"name": "Indonesia",
@@ -245,7 +252,6 @@
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
 	},
-
 	{
 		"name": "Japan",
 		"leaderName": "Oda Nobunaga",
@@ -347,7 +353,7 @@
 	},
 	{
 		"name": "Quebec City",
-		"adjective": ["QuÃ©bÃ©cois"],
+		"adjective": ["Québécois"],
 		"cityStateType": "Maritime",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -357,7 +363,6 @@
 		"innerColor": [92, 247, 255],
 		"cities": ["Quebec City"]
 	},
-
 	{
 		"name": "Cape Town",
 		"adjective": ["Cape Town"],
