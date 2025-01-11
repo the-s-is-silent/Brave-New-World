@@ -1,80 +1,114 @@
 [
-    {
-        "name": "Cloves",
-        "uniqueTo": "Indonesia",
-        "isNationalWonder": true, 
-        "cost": 1,
-        "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Nutmeg]>","Only available <in cities without a [Pepper]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
-    },
-    {
-        "name": "Nutmeg",
-        "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
-        "cost": 1,
-        "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Cloves]>","Only available <in cities without a [Pepper]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
-    },
-    {
-        "name": "Pepper",
-        "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
-        "cost": 1,
-        "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Nutmeg]>","Only available <in cities without a [Cloves]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
-    },
-		{
+	{
+		"name": "Cloves",
+		"uniqueTo": "Indonesia",
+		"isNationalWonder": true, 
+		"cost": 0,
+		"uniques": [
+			"Only available <in cities without a [Palace]>",
+			"Only available <in cities without a [Nutmeg]>",
+			"Only available <in cities without a [Pepper]>",
+			"Limited to [1] per Civilization",
+			"Will not be displayed in Civilopedia",
+			"Provides [2] [Cloves]",
+			"Must be next to [Coast]"
+		]
+	},
+	{
+		"name": "Nutmeg",
+		"uniqueTo": "Indonesia",
+		"isNationalWonder": true,
+		"cost": 0,
+		"uniques": [
+			"Only available <in cities without a [Palace]>",
+			"Only available <in cities without a [Cloves]>",
+			"Only available <in cities without a [Pepper]>",
+			"Limited to [1] per Civilization",
+			"Will not be displayed in Civilopedia",
+			"Provides [2] [Nutmeg]",
+			"Must be next to [Coast]"
+		],
+	},
+	{
+		"name": "Pepper",
+		"uniqueTo": "Indonesia",
+		"isNationalWonder": true,
+		"cost": 0,
+		"uniques": [
+			"Only available <in cities without a [Palace]>",
+			"Only available <in cities without a [Nutmeg]>",
+			"Only available <in cities without a [Cloves]>",
+			"Limited to [1] per Civilization",
+			"Will not be displayed in Civilopedia",
+			"Provides [2] [Pepper]",
+			"Must be next to [Coast]"
+		],
+	},
+	{
 		"name": "Royal Library",
 		"replaces": "Library",
 		"uniqueTo": "Assyria",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience [in this city]"],
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"New [Military] units start with [10] Experience [in this city]"
+		],
 		"requiredTech": "Writing"
 	},
-	   {
-        "name": "Ducal Stable", 
-        "replaces": "Stable",
-        "uniqueTo": "Poland",
-        "cost": 75,
-        "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
-        "hurryCostModifier": 25,
-        "uniques": ["New [Mounted] units start with [15] Experience [in this city]","[+15]% Production when constructing [Mounted] units [in this city]",
+	{
+		"name": "Ducal Stable", 
+		"replaces": "Stable",
+		"uniqueTo": "Poland",
+		"cost": 75,
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"New [Mounted] units start with [15] Experience [in this city]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
 			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"],
-        "requiredTech": "Horseback Riding"
-    },
-    {
-        "name": "Ikanda", 
-        "replaces": "Barracks",
-        "uniqueTo": "Zulu",
-        "cost": 75,
-        "hurryCostModifier": 25,
-        "maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"],
-        "requiredTech": "Bronze Working"
-    },
-	    {
-        "name": "Candi", 
-        "replaces": "Garden",
-        "uniqueTo": "Indonesia",
-        "cost": 120,
-        "faith": 3,
-        "uniques": ["[+25]% Great Person generation [in this city]"],
-        "hurryCostModifier": 25,
-        "maintenance": 1,
-        "requiredTech": "Drama and Poetry"
-    },
-	    {
-        "name": "Hanse",
-        "replaces": "Bank",
-        "uniqueTo": "Germany",      
-        "gold": 2,
-        "specialistSlots": {"Merchant": 1},
-        "hurryCostModifier": 15,
-        "uniques": ["[+5]% [Production] [in this city]",
-            "[+25]% [Gold] [in this city]","Requires a [Market] [in this city]"],
-        "requiredTech": "Banking"
-    },
+			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]"
+		],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Ikanda",
+		"replaces": "Barracks",
+		"uniqueTo": "Zulu",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"New [Military] units start with [15] Experience [in this city]",
+			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"
+		],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Candi",
+		"replaces": "Garden",
+		"uniqueTo": "Indonesia",
+		"cost": 120,
+		"faith": 3,
+		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Hanse",
+		"replaces": "Bank",
+		"uniqueTo": "Germany",
+		"requiredBuilding": "Market",
+		"gold": 2,
+		"percentStatBonus": {"production": 5, "gold": 25},
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"requiredTech": "Banking"
+	},
 	// wonders
 	{
 		"name": "Hanging Gardens",
@@ -83,7 +117,10 @@
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
-		"uniques": ["Gain a free [Garden] [in this city]","Only available <after adopting [Tradition]>"],
+		"uniques": [
+			"Gain a free [Garden] [in this city]",
+			"Only available <after adopting [Tradition]>"
+		],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
 	{
@@ -91,7 +128,11 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% tile improvement construction time","[2] free [Worker] units appear","Only available <after adopting [Liberty]>"],
+		"uniques": [
+			"Can build [all] improvements at a [+25]% rate",
+			"[2] free [Worker] units appear",
+			"Only available <after adopting [Liberty]>"
+		],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -99,7 +140,10 @@
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>","Only available <after adopting [Honor]>"],
+		"uniques": [
+			"[+15]% Strength <for [All] units> <vs cities> <when attacking>",
+			"Only available <after adopting [Honor]>"
+		],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 	},
@@ -109,8 +153,13 @@
 		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Gain a free [Mosque] [in this city]", "Only available <after adopting [Piety]>", "Hidden when religion is disabled",
-			"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times"],
+		"uniques": [
+			"Gain a free [Mosque] [in this city]",
+			"Only available <after adopting [Piety]>",
+			"Only available <when religion is enabled>",
+			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"
+		],
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
@@ -119,7 +168,10 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]", "Only available <after adopting [Patronage]>"],
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <after adopting [Patronage]>"
+		],
 		"requiredTech": "Banking",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
 	},
@@ -129,7 +181,10 @@
 		"gold": 4,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["[Gold] cost of purchasing items in cities [-15]%","Only available <after adopting [Commerce]>"],
+		"uniques": [
+			"[Gold] cost of purchasing items in cities [-15]%",
+			"Only available <after adopting [Commerce]>"
+		],
 		"requiredTech": "Industrialization",
 		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
@@ -138,7 +193,10 @@
 		"culture": 1,
 		"happiness": 4,
 		"isWonder": true,
-		"uniques": ["[2] free [Great Artist] units appear","Only available <after adopting [Exploration]>"],
+		"uniques": [
+			"[2] free [Great Artist] units appear",
+			"Only available <after adopting [Exploration]>"
+		],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
 	},
@@ -147,7 +205,11 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%","Only available <after adopting [Rationalism]>"],
+		"uniques": [
+			"Free [Great Scientist] appears",
+			"Science gained from research agreements [+50]%",
+			"Only available <after adopting [Rationalism]>"
+		],
 		"requiredTech": "Architecture",
 		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
 	},
@@ -156,7 +218,11 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+1 Production] from every specialist [in all cities]","Free Social Policy", "Only available <after adopting [Freedom]>"],
+		"uniques": [
+			"[+1 Production] from every specialist [in all cities]",
+			"Free Social Policy",
+			"Only available <after adopting [Freedom]>"
+		],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
@@ -164,11 +230,28 @@
 		"name": "Kremlin",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+50]% Production when constructing [Armored] units [in all cities]","Free Social Policy","Only available <after adopting [Order]>"],
+		"uniques": [
+			"[+50]% Production when constructing [Armored] units [in all cities]",
+			"Free Social Policy",
+			"Only available <after adopting [Order]>"
+		],
 		"requiredTech": "Railroads",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
 	},
-		{
+	{
+		"name": "Terracotta Army",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": [
+			"Free [Warrior] appears",
+			"Free [Archer] appears",
+			"Free [Horseman] appears",
+			"Free [Spearman] appears"
+		],
+		"requiredTech": "Construction",
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	{
 		"name": "Red Fort",
 		"culture": 1,
 		"cityStrength": 12,
@@ -178,55 +261,70 @@
 		"requiredTech": "Metallurgy",
 		"quote": "'When we build, let us think that we build forever.' – John Ruskin"
 	},
-		{
+	{
 		"name": "Borobudur",
 		"faith": 5,
 		"isWonder": true,
-		"uniques": [ "Can only be built [in holy cities]","[3] free [Missionary] units appear"],
+		"uniques": [
+			"Can only be built <in [Holy] cities>",
+			"[3] free [Missionary] units appear",
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Theology",
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' – Gautama Buddha"
 	},
 	{
-        "name": "East India Company", 
-        "cost": 125,
-        "gold": 4,
-        "isNationalWonder": true,
-        "uniques": ["[+1 Gold] from each Trade Route",
-            "Cost increases by [30] per owned city","Requires a [Market] in all cities"],
-        "requiredTech": "Guilds"
-    },
-	 {
-        "name": "Uffizi", 
-        "culture": 2,
-        "specialistSlots": {"Artist": 2},
-        "isWonder": true,
-        "uniques": ["Free [Great Artist] appears","Only available <after adopting [Aesthetics]>"],
-        "requiredTech": "Architecture",
-        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
-    },
-	  {
-        "name": "Prora", 
-        "happiness": 2,
-        "isWonder": true,
-        "uniques": ["[+1 Happiness] per [2] social policies adopted","Free Social Policy","Only available <after adopting [Autocracy]>"],
-        "requiredTech": "Flight",
-        "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
-    },
+		"name": "East India Company", 
+		"cost": 125,
+		"gold": 4,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1 Gold] from each Trade Route",
+			"Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Guilds"
+	},
 	{
-        "name": "Parthenon", 
-        "culture": 6,
-        "isWonder": true,
-        "greatPersonPoints": {"Great Artist": 1},
-        "requiredTech": "Drama and Poetry",
-        "quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
-    },
+		"name": "Uffizi", 
+		"culture": 2,
+		"specialistSlots": {"Artist": 2},
+		"isWonder": true,
+		"uniques": [
+			"Free [Great Artist] appears",
+			"Only available <after adopting [Aesthetics]>"
+		],
+		"requiredTech": "Architecture",
+		"quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
+	},
 	{
-        "name": "Eiffel Tower",
-        "culture": 5,
-        "happiness": 5,
-        "greatPersonPoints": {"Great Merchant": 2},
-        "isWonder": true,
-        "requiredTech": "Radio",
-        "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
-    },
-	]
+		"name": "Prora",
+		"happiness": 2,
+		"isWonder": true,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Happiness] per [2] social policies adopted",
+			"Free Social Policy",
+			"Only available <after adopting [Autocracy]>"
+		],
+		"requiredTech": "Flight",
+		"quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
+	},
+	{
+		"name": "Parthenon",
+		"culture": 6,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Drama and Poetry",
+		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
+	},
+	{
+		"name": "Eiffel Tower",
+		"culture": 5,
+		"happiness": 5,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"requiredTech": "Radio",
+		"quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
+	}
+]
