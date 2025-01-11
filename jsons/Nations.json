@@ -6,6 +6,7 @@
 		"adjective": ["Polish"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
+		"personality": "Casimir III",
 
 		"startIntroPart1": "All hail noble King Casimir the Great, protector and sovereign of the Kingdom of Poland. You ascended to the throne during a time of great turmoil, with the nation's economy in shambles and its people demoralized by the wars of your predecessor. And yet, your reign marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
 		"startIntroPart2": "Honored king Casimir, the people have long admired the steady hand of governance you wield. Can you return your kingdom and its subjects to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
@@ -19,14 +20,16 @@
 		"outerColor": [241,3,0],
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
-		"uniqueText": "Receive a free Social Policy each time you advance to the next era.",
-		"uniques": ["Free Social Policy <upon entering the [Classical era]>",
-			    "Free Social Policy <upon entering the [Medieval era]>",
-			    "Free Social Policy <upon entering the [Renaissance era]>",
-			    "Free Social Policy <upon entering the [Industrial era]>",
-			    "Free Social Policy <upon entering the [Modern era]>",
-			    "Free Social Policy <upon entering the [Atomic era]>",
-			    "Free Social Policy <upon entering the [Information era]>"],
+		"uniqueText": "Receive a free Social Policy each time you enter a new era.",
+		"uniques": [
+			"Free Social Policy <upon entering the [Classical era]>",
+			"Free Social Policy <upon entering the [Medieval era]>",
+			"Free Social Policy <upon entering the [Renaissance era]>",
+			"Free Social Policy <upon entering the [Industrial era]>",
+			"Free Social Policy <upon entering the [Modern era]>",
+			"Free Social Policy <upon entering the [Atomic era]>",
+			"Free Social Policy <upon entering the [Information era]>"
+		],
 		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
 			"Katowice","Bialystok","Gdynia","Swidnica","Czestochowa","Radom","Torun","Kielce","Gliwice","Lowicz",
 			"Bytom","Olsztyn","Rzeszow","Ruda Slaska","Bielsko-Biala","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
@@ -38,6 +41,7 @@
 		"adjective": ["Assyrian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
+		"personality": "Ashurbanipal",
 
 		"startIntroPart1": "The people bow to your esteemed will, o wise and illustrious King Ashurbanipal of Assyria. Across the world, you are known as both a scholar and a warrior, and yet the legends represent merely a glimmer of your true ambition. Although your enemies cowered at the thought of your ferocity in conquest, you were most proud of your intellectual pursuits. Your thirst for knowledge led to your establishment of the royal library at Nineveh, which came to represent one of the greatest collections of ancient texts and tablets found anywhere in the world - securing your legacy as one of Assyria's greatest kings.",
 		"startIntroPart2": "Wise and fearsome king, the time has come for you to return the kingdom of Assyria to its greatest heights. Will you once again strive to acquire the knowledge and histories of all the world's peoples? Can you build a civilization that will stand the test of time?",
@@ -62,6 +66,7 @@
 		"adjective": ["Brazilian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Pedro II",
 
 		"startIntroPart1": "All Hail his most respected and magnanimous Emperor, Pedro II of Brazil. It was with great insight and unshakeable dignity that you ruled the Brazilian empire for over 50 years, ushering in a time of lasting peace and prosperity. Your reputation as a stern, but fair leader was never blemished by controversy, as your unwavering dedication to the people of Brazil provided hope and established the kingdom's position in South America. Your scholarly pursuits and staunch defense of freedom of speech led to the creation of several institutions of higher learning, strengthening Brazil's sense of national identity.",
 		"startIntroPart2": "Revered Emperor Pedro, your people long for a return to the peaceful days when you walked among them, hearing their stories and reassuring them of a bright future. Will you once again lead your kingdom to prosperity? Can you build a civilization that stands the test of time?",
@@ -75,7 +80,10 @@
 		"outerColor": [107,208,6],
 		"innerColor": [63,106,64],
 		"uniqueName": "Carnival",
-		"uniques": ["[+50]% [Culture] [in all cities] <during a Golden Age>","[Great Artist] is earned [50]% faster <during a Golden Age>"],
+		"uniques": [
+			"[+50]% [Culture] [in all cities] <during a Golden Age>",
+			"[Great Artist] is earned [50]% faster <during a Golden Age>"
+		],
 		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuiabá",
@@ -87,6 +95,7 @@
 		"adjective": ["Zulu"],
 		"startBias": ["Avoid [Jungle]"],
 		"preferredVictoryType": "Domination",
+		"personality": "Shaka",
 
 		"startIntroPart1": "Your people kneel before you, great warrior Shaka of the Zulu Kingdom. As you rose from a place of exile to become the true leader of the Zulus, you ushered in changes throughout the Zulu society, implementing new laws and cultural reforms that strengthened the position of your kingdom. However, it was your tenacity in the art of war that truly established your reputation, as your tactics and strategies on the battlefield forever changed the face of combat across the plains of southern Africa.",
 		"startIntroPart2": "Most formidable king, your people once again long for the unity and strength your leadership afforded them. Can you return the Zulu kingdom to such great prominence? Will you build a civilization that stands the test of time?",
@@ -100,7 +109,11 @@
 		"outerColor": [255,247,241],
 		"innerColor": [116,55,25],
 		"uniqueName": "Iklwa",
-		"uniques": ["[-50]% maintenance costs <for [Sword] units>","[-50]% maintenance costs <for [Gunpowder] units>","[+50]% XP gained from combat <for [Military] units>"],
+		"uniques": [
+			"[-50]% maintenance costs <for [Sword] units>",
+			"[-50]% maintenance costs <for [Gunpowder] units>",
+			"[+50]% XP gained from combat <for [Military] units>"
+		],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
 			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","eMangweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
 			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hluhluwe","Matubatuba","Mhlahlandlela",
@@ -112,6 +125,7 @@
 		"adjective": ["Portuguese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
+		"personality": "Maria I",
 
 		"startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
 		"startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
@@ -137,6 +151,7 @@
 		"adjective": ["Indonesian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Gajah Mada",
 
 		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
 		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
@@ -150,7 +165,7 @@
 		"outerColor": [101,211,220],
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
-		"uniqueText": " After researching Astronomy, 3 coastal cities each provide 2 copies of unique Luxury Resources",
+		"uniqueText": "After researching Astronomy, 3 coastal cities each provide 2 copies of unique Luxury Resources",
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
 			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
@@ -163,6 +178,7 @@
 		"adjective": ["Moroccan"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Ahmad al-Mansur",
 
 		"startIntroPart1": "The people of Morocco await your guidance, great Sultan Ahmad al-Mansur of the Saadi Dynasty. Well known for your skill as both a negotiator and a diplomat, your careful words allowed the forging of new alliances, securing the sovereignty of your nation and its people for decades. And still, when words failed, you found equal success in conquest, leading the Moroccan armies to victory on the battlefield while greatly expanding the grasp of your empire.",
 		"startIntroPart2": "Wise and respected Sultan, the people look to you for leadership. Can your diplomacy match that of your rivals, or will you meet them sword in hand? Your once great kingdom yearns for that former glory - can you build a civilization that stands the test of time?",
@@ -188,6 +204,7 @@
 		"adjective": ["Venetian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
+		"personality": "Enrico Dandolo",
 
 		"startIntroPart1": "Greetings, most astute Doge Enrico Dandolo of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
 		"startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
@@ -201,7 +218,11 @@
 		"outerColor": [105,34,172],
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
-		"uniques": ["[+100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]","Cannot build [Settler] units"],
+		"uniques": [
+			"[+100]% [Gold] [in capital]",
+			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
+			"Cannot build [Settler] units"
+		],
 		"cities": ["Venice"]
 	},
 	{
@@ -209,6 +230,7 @@
 		"leaderName": "Pocatello",
 		"adjective": ["Shoshone"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Pocatello",
 
 		"startIntroPart1": "Blessings be upon you, wise and fearsome Chief Pocatello, revered leader of the Shoshone people. As the young chieftain of the Shoshone, you rose to face a wave of encroaching American settlements across the western United States. Forced to defend the Shoshone ancestral lands from a seemingly endless stream of new emigrants, your war band struck fear into those who would claim the sacred lands of your people. After years of strife, you skillfully avoided a direct conflict with the armies of the U.S. government, and negotiated a series of treaties in the hopes of establishing a lasting peace for the Shoshone.",
 		"startIntroPart2": "Most esteemed Pocatello, your people once again look to you for guidance. Will you conquer your enemies, driving them far from your lands? Or will you seek out peaceful diplomacy and trade? Will you build a civilization that stands the test of time?",
@@ -222,7 +244,10 @@
 		"outerColor": [65,54,42],
 		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
-		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-25]% Culture cost of natural border growth [in all cities]"],
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"[-25]% Culture cost of natural border growth [in all cities]"
+		],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
 			"Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"]
@@ -232,6 +257,7 @@
 		"leaderName": "Napoleon",
 		"adjective": ["French"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Napoleon",
 
 		"startIntroPart1": "Long life and triumph to you, First Consul and Emperor of France, Napoleon I, ruler of the French people. France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
 		"startIntroPart2": "Napoleon Bonaparte, France yearns for you to rebuild your empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement. Emperor, will you ride once more against your foes? Can you build a civilization that will stand the test of time?",
@@ -246,7 +272,12 @@
 		"innerColor": [239,236,148],
 		"favoredReligion": "Christianity",
 		"uniqueName": "City of Light",
-		"uniques": ["[+2 Culture] [in capital] <starting from the [Ancient era]>","[+2 Culture] [in capital] <starting from the [Medieval era]>","[+2 Culture] [in capital] <starting from the [Industrial era]>","[+2 Culture] [in capital] <starting from the [Atomic era]>"],
+		"uniques": [
+			"[+2 Culture] [in capital] <starting from the [Ancient era]>",
+			"[+2 Culture] [in capital] <starting from the [Medieval era]>",
+			"[+2 Culture] [in capital] <starting from the [Industrial era]>",
+			"[+2 Culture] [in capital] <starting from the [Atomic era]>"
+		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -258,6 +289,7 @@
 		"adjective": ["Japanese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+		"personality": "Oda Nobunaga",
 
 		"startIntroPart1": "Blessings upon you, noble Oda Nobunaga, ruler of Japan, the land of the Rising Sun! May you long walk among its flowering blossoms. The Japanese are an island people, proud and pious with a rich culture of arts and letters. Your civilization stretches back thousands of years, years of bloody warfare, expansion and isolation, great wealth and great poverty. In addition to their prowess on the field of battle, your people are also immensely industrious, and their technological innovation and mighty factories are the envy of lesser people everywhere.",
 		"startIntroPart2": "Legendary daimyo, will you grab the reins of destiny? Will you bring your family and people the honor and glory they deserve? Will you once again pick up the sword and march to triumph? Will you build a civilization that stands the test of time?",
@@ -272,7 +304,11 @@
 		"innerColor": [185,0,0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
-		"uniques": ["Damage is ignored when determining unit Strength <for [non-air] units>","[+1 Culture] from every [Fishing Boats]","[+2 Culture] from every [Atoll]"],
+		"uniques": [
+			"No damage penalty for wounded units <for [non-[Air]] units>",
+			"[+1 Culture] from every [Fishing Boats]",
+			"[+2 Culture] from every [Atoll]"
+		],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
