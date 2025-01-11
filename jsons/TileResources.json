@@ -65,5 +65,15 @@
 		"name": "Pepper", 
 		"gold": 2,
 		"resourceType": "Luxury",
+	},
+	{
+		"name": "Enhancer Tenet", 
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Reformation Tenet", 
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia"]
 	}
 ]
