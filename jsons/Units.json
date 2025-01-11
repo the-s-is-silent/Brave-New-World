@@ -1,5 +1,5 @@
 [
-{
+	{
 		"name": "Pathfinder", 
 		"unitType": "Scout",
 		"replaces": "Scout",
@@ -28,7 +28,7 @@
 		"obsoleteTech": "Chivalry",
 		"attackSound": "arrow"
 	},
-		{
+	{
 		"name": "Siege Tower",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Catapult",
@@ -39,8 +39,13 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-		"[+1] Sight","Can only attack [City] units","[50]% Strength bonus for [Sword] units within [1] tiles <vs [city] units>"],
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[+1] Sight",
+			"Can only attack [City] units",
+			"[50]% Strength bonus for [Sword] units within [1] tiles <vs [city] units>"
+		],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
@@ -82,11 +87,18 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["No movement cost to pillage","Unbuildable","[+50]% Strength <vs [Mounted] units>","Can move immediately once bought","Only available <after adopting [Mercenary Army]>","Earn [100]% of the damage done to [City] units as [Gold]"],
+		"uniques": [
+			"No movement cost to pillage",
+			"Unbuildable",
+			"[+50]% Strength <vs [Mounted] units>",
+			"Can move immediately once bought",
+			"Only available <after adopting [Mercenary Army]>",
+			"Earn [100]% of the damage done to [City] units as [Gold]"
+		],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"
 	},
-		{
+	{
 		"name": "Impi", 
 		"replaces": "Pikeman",
 		"uniqueTo": "Zulu",
@@ -95,7 +107,11 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","[+50]% Strength <vs [Mounted] units>","[1] additional attacks per turn"],
+		"uniques": [
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"[+50]% Strength <vs [Mounted] units>",
+			"[1] additional attacks per turn"
+		],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -113,10 +129,10 @@
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"promotions": ["Shock I", "Great Generals II"],
+		"uniques": ["Can instantly construct a [Fishing Boats] improvement <for all movement>"],
 		"attackSound": "metalhit"
-		//Samurai should also create Fishing Boats (not now, surely)
 	},
-		{
+	{
 		"name": "Winged Hussar", 
 		"replaces": "Lancer",
 		"uniqueTo": "Poland",
@@ -127,9 +143,13 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
-		"promotions": ["Shock I","Formation I","Heavy Charge"],
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Horses]"
+		],
+		"promotions": ["Shock I", "Formation I", "Heavy Charge"],
 		"attackSound": "horse"
 	},
 	{
@@ -144,7 +164,12 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Can move after attacking","[+1] Sight","May withdraw before melee ([50]%)","Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"],
+		"uniques": [
+			"Can move after attacking",
+			"[+1] Sight",
+			"Withdraws before melee combat <with [50]% chance>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"
+		]
 	},
 	{
 		"name": "Berber Cavalry", 
@@ -157,9 +182,13 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"promotions": ["Homeland Guardian","Desert Warrior"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+		"promotions": ["Homeland Guardian", "Desert Warrior"],
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Horses]"
+		],
 		"attackSound": "horse"	
 	},
 	{
@@ -173,8 +202,12 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"],
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Horses]"
+		],
 		"attackSound": "horse"
 	},
 	{
@@ -186,7 +219,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Unbuildable"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Unbuildable"],
 		"attackSound": "shot"
 	},
 	{
@@ -236,7 +269,11 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "Future Soldier",
-		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory", "No movement cost to pillage", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May Paradrop up to [9] tiles from inside friendly territory",
+			"No movement cost to pillage",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -246,7 +283,10 @@
 		"strength": 100,
 		"cost": 400,
 		"requiredTech": "Nanotechnology",
-		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": [
+			"May Paradrop up to [40] tiles from inside friendly territory",
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -255,7 +295,13 @@
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Great Person - [Gold]","Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Unbuildable","Uncapturable"]
-	},
-	]
+		"uniques": [
+			"Great Person - [Gold]",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Double movement in [Coast]",
+			"Unbuildable",
+			"Uncapturable"
+		]
+	}
+]
