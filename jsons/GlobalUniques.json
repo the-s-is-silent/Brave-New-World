@@ -1,0 +1,25 @@
+{
+	"name": "Global uniques",
+	"uniques": [
+		"Provides [1] [Enhancer Tenet] <before enhancing a religion>",
+		"Provides [1] [Enhancer Tenet] <for [Byzantium] Civilizations> <upon founding a religion>",
+		"Provides [1] [Reformation Tenet] <for [Byzantium] Civilizations> <upon founding a religion>",
+
+		"[+60]% Strength <for [{Major} {AI player}] units> <vs [Barbarian] units>",
+        "[+10]% Strength <for [{Major} {AI player}] units> <vs [Barbarian] units> <on [Chieftain] difficulty>", // These are additive, not multiplicative
+        "[+15]% Strength <for [{Major} {AI player}] units> <vs [Barbarian] units> <on [Settler] difficulty>",
+
+        "[This unit] gains [10] XP <for [{Major} {AI player}] units> <on [King] difficulty> <upon gaining a [all] unit> <Suppress warning [is not allowed]>",
+        "[This unit] gains [10] XP <for [{Major} {AI player}] units> <on [Emperor] difficulty> <upon gaining a [all] unit> <Suppress warning [is not allowed]>",
+        "[+25]% XP gained from combat <for [{Major} {AI player}] units> <on [Emperor] difficulty>",
+        "[This unit] gains [30] XP <for [{Major} {AI player}] units> <on [Immortal] difficulty> <upon gaining a [all] unit> <Suppress warning [is not allowed]>",
+        "[+50]% XP gained from combat <for [{Major} {AI player}] units> <on [Immortal] difficulty>",
+        "[This unit] gains [30] XP <for [{Major} {AI player}] units> <on [Deity] difficulty> <upon gaining a [all] unit> <Suppress warning [is not allowed]>",
+        "[+100]% XP gained from combat <for [{Major} {AI player}] units> <on [Deity] difficulty>",
+
+        "Can build [all] improvements at a [+20]% rate <for [{Major} {AI player}] Civilizations> <on [King] difficulty>",
+        "Can build [all] improvements at a [+50]% rate <for [{Major} {AI player}] Civilizations> <on [Emperor] difficulty>",
+        "Can build [all] improvements at a [+75]% rate <for [{Major} {AI player}] Civilizations> <on [Immortal] difficulty>",
+        "Can build [all] improvements at a [+100]% rate <for [{Major} {AI player}] Civilizations> <on [Deity] difficulty>"
+	]
+}
