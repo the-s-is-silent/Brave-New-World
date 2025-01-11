@@ -219,7 +219,8 @@
 				"name": "Reformation",
 				"uniques": [
 					"Gain a free [Enhancer] belief",
-					"Only available <after founding a religion>"
+					"Provides [1] [Reformation Tenet] <hidden from users>",
+					"Only available <after enhancing a religion>"
 				],
 				"requires": ["Organized Religion"],
 				"row": 2,
