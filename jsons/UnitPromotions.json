@@ -109,5 +109,9 @@
 	{
 		"name": "Altitude Training",
 		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
-	}
+	},
+	{
+		"name": "Evangelist",
+		"uniques": ["Removes other religions when spreading religion"]
+	},
 ]
